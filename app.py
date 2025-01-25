@@ -37,7 +37,8 @@ This app showcases the power of **Hugging Face** for ML applications:
 ---
 🚀 *Developed with Streamlit & Hugging Face 🤗*
 
-**Created by: Louie F. Cervantes, M.Eng. (Information Engineering) (c) 2025 West Visayas State University**
+**Created by: Louie F. Cervantes, M.Eng. (Information Engineering) 
+(c) 2025 West Visayas State University**
 """
     with st.expander("About thiss app"):
         st.markdown(about)
