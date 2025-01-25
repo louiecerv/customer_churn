@@ -40,7 +40,7 @@ This app showcases the power of **Hugging Face** for ML applications:
 **Created by: Louie F. Cervantes, M.Eng. (Information Engineering) 
 (c) 2025 West Visayas State University**
 """
-    with st.expander("About thiss app"):
+    with st.expander("About this app"):
         st.markdown(about)
     
     # --- Dataset Exploration ---
