@@ -24,9 +24,24 @@ with open(model_path, "rb") as f:
 def main():
     # Streamlit app
     st.title("Customer Churn Prediction App")
-    st.write("This app demonstrates how to use Hugging Face Datasets and Models for a "
-            "real-world classification task: predicting customer churn.")
 
+    about = """## 🤗 Hugging Face for Machine Learning
+
+This app showcases the power of **Hugging Face** for ML applications:
+- 📂 **Datasets**: Easily access and share datasets.
+- 🧠 **Models**: Download and use pre-trained models or upload your own.
+- 🌍 **Spaces**: Deploy your app effortlessly.
+
+👉 **Explore Hugging Face** and build your own ML-powered projects!
+
+---
+🚀 *Developed with Streamlit & Hugging Face 🤗*
+
+**Created by: Louie F. Cervantes, M.Eng. (Information Engineering) (c) 2025 West Visayas State University**
+"""
+    with st.expander("About thiss app"):
+        st.markdown(about)
+    
     # --- Dataset Exploration ---
     st.header("Dataset Exploration")
     st.write("Let's explore the customer churn dataset:")
